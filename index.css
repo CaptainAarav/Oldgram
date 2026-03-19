@@ -13,6 +13,18 @@ html, body {
 
 #logo {
     width: 100px;
-    padding: 10px;
+    margin: 10px;
 }
 
+#user-avatar {
+    width: 40px;
+    border-radius: 50px;
+    margin: 10px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+}
